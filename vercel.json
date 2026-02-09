@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "dist/carlos-mass-proyet/**",
@@ -8,10 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/dist/carlos-mass-proyet/index.html"
+      "dest": "/index.html"
     }
-  ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/carlos-mass-proyet",
-  "framework": "angular"
+  ]
 }
