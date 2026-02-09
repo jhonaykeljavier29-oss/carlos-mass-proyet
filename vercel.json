@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "dist/carlos-mass-proyet/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/dist/carlos-mass-proyet/index.html"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/carlos-mass-proyet",
+  "framework": "angular"
+}
